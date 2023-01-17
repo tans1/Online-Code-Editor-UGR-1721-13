@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABout page</title>
+
+
+    <link rel="stylesheet" href="../css/common_style.css">
+    <link rel="stylesheet" href="../css/about-page.css">
+</head>
+<body>
+    <header>
+        <div class="header__content">
+            <img src="images/header-image.jpg" alt="header background pic">
+            <div class="quotes">
+                    <q> 
+                        Programming is the art of telling another human being what one wants the computer to do.
+                    </q>
+                    <span class="quotes__owner__name"> Donald Ervin Knuth</span>   
+            </div>
+        </div> 
+    </header>
+
+    <div class="navigation__bar__container">
+        <div class="icons">
+            <div class="navigation__icons__container">
+                <label for="nav__bar__icon">
+                    <img src="./images/menu-humbergur.svg" alt="navigation bar icon">
+                </label>
+                <span class="nav__bar__icon">Pages</span>
+            </div>
+        </div>
+        
+        <nav class="navigation__bar">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./main-page.html">Tutorials</a></li>
+                <li><a href="./compiler_page.html">Compiler</a></li>
+                <li><a href="./login-page.html">Login/Sign Up</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    
+    <section class="about__us--section">
+        <div class="about__us--class">
+            <div class="about__us__image">
+                <img src="images/the-managers.jpg" alt="The deveopers meeting">
+            </div>
+            <div class="about__us__description" >
+                <p class="aboutUs"> About Us</p>
+                <p class="explanation__aboutUs">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum nobis voluptate quidem rem dignissimos, reiciendis voluptates molestiae sapiente nemo laudantium, eveniet distinctio impedit debitis excepturi beatae non? Libero laudantium sint quibusdam iusto labore illum, eius officiis a vero, illo maiores consectetur corrupti. Totam ea recusandae sed perspiciatis, similique numquam animi.</p>
+            </div>
+        </div>
+
+        <div class="our__mission">
+            <div class="our__mission-description">
+                <p class="mission">Our Mission</p>
+                <p class="explanation__of__our__mission">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis repellat sint autem libero inventore assumenda debitis minus doloremque doloribus tempora, quidem quasi rem! Vero rem quo provident necessitatibus magnam repellat, veniam sequi, omnis hic reprehenderit eius ut. At provident blanditiis rerum, aperiam, modi voluptatibus ea architecto quia exercitationem nam illum.</p>
+            </div>
+            <div class="our__mission__image__container">
+                <img src="images/dart.jpg" alt="goal or mission image">
+            </div>
+        </div>
+
+        <div class="our__history">
+            <p class="history">Our History</p>
+            <p class="our__history-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero eum iusto iure vel cupiditate dignissimos blanditiis praesentium ipsum quas saepe. Libero dolorem voluptates minima! Explicabo repudiandae culpa unde, nostrum eligendi repellendus harum sed magni minus natus corporis architecto provident dolore illum cumque voluptate iusto ut suscipit deserunt. Repellat est eligendi facere minima animi officia impedit ut esse aliquam magni consequatur soluta necessitatibus totam libero, iusto ipsa doloremque maiores odio harum. Minus quis error sequi optio ipsum tempora dolores libero totam aspernatur voluptas provident sunt saepe, ut tempore. Rerum recusandae corporis ea voluptas possimus, in similique sequi rem officiis sint. Assumenda.</p>
+        </div>
+
+
+        <div class="references">
+            <p>We used the following resources during preparation of this tutorial. You can use them to improve your web design skill.</p>
+            <div class="resources-image" >
+                <img class="image1" src="images/book1.jpg" alt="resources used to prepare this tutorials">
+                <img class="image2" src="images/book2.jpg" alt="resources used to prepare this tutorials">
+                <img class="image3" src="images/book3.jpg" alt="resources used to prepare this tutorials">
+                <img class="image4" src="images/book4.jpg" alt="resources used to prepare this tutorials">
+                <img class="image5" src="images/book5.png" alt="resources used to prepare this tutorials">
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="footer">
+        <div class="logo">
+            <img src="images/logo.jpg" alt="Logo">
+        </div>
+
+        <div class="footer-pages">
+            <ul class="footer__pages--list">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./contact_page.html">Contact us</a></li>
+                <li><a href="./compiler_page.html">Compiler</a></li>
+                <li><a href="./main-page.html">Tutorials</a></li>
+            </ul>
+        </div>
+
+        <div class="feedback">
+            <form action="" method="post" class="form">
+                <label for="feedback__email">email</label>
+                <input type="text" placeholder="email@email.com" id="feedback__email">
+                
+                <div class="error--message"></div>
+                
+                <label for="feedback__text"> feedback</label>
+                <textarea name="feedback" id="feedback__text" cols="50" rows="10" ></textarea>
+                <button type="submit" class="feedback--sendButton">send</button>
+            </form>
+        </div>
+    </footer>
+    <script src="../js/common-script.js"></script>
+</body>
+</html>

@@ -1,0 +1,158 @@
+@media screen and (max-width:480px) {
+    .Company__Address{
+        margin: 50px 20px;
+    }
+    .the__CEOs__picture {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .Company__Address-text p, 
+    .location-description p  {
+        font-family: var(--roboto);
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1.5;
+        
+    }
+
+    .location__on_map{
+        margin: 50px 10px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .location-description{
+        margin-top: 20px;
+    }
+    .map {
+        width: 100% ;
+        height: 40vh;
+    }
+    .social__medias {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 50px;
+        width: 90%;
+        margin:20px auto;
+        margin-top: 50vh;
+    }
+    .social__medias img{
+        width: 50%;
+    }
+    .social__medias__link {
+        
+        text-decoration:none;
+        color: black;
+    }
+    
+}
+
+@media only screen  and (min-width:481px) and (max-width:768px){
+    .Company__Address, .location__on_map {
+        display: grid;
+        column-gap: 50px;
+        align-items: center;
+    }
+
+    .Company__Address{
+        grid-template-columns: 60% 40%;
+        margin: 100px 50px 0 50px;
+    }
+    .location__on_map{
+        grid-template-columns: 43% 57%;
+        margin: 100px 100px 0 50px;
+    }
+    .the__CEOs__picture__container {
+        width: 100%;
+        height: 100%;
+        box-shadow: 10px 10px 10px rgb(0, 0, 0,0.5);
+        border-radius: 15px;
+        
+    }
+    .the__CEOs__picture {
+        border-radius: 15px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .Company__Address-text p, .location-description p {
+        font-family: var(--roboto);
+        font-size: 1.1rem;
+        font-weight: 500;
+        line-height: 1.5;
+        
+    }
+    .map {
+        width: 100% ;
+        height: 30vh;
+    }
+    .social__medias {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 20px;
+        width: 80%;
+        margin:20px auto;
+        margin-top: 50vh;
+    }
+    .social__medias img{
+        width: 40%;
+    }
+}
+
+@media screen and (min-width:769px) {
+    .navigation__bar{
+        display: block;
+    }
+    .Company__Address, .location__on_map {
+        display: grid;
+        column-gap: 10px;
+        align-items: center;
+    }
+    .Company__Address{
+        grid-template-columns: 60% 40%;
+        margin: 100px 70px 0 70px;
+    }
+    .location__on_map{
+        grid-template-columns: 43% 57%;
+        column-gap: 50px;
+        margin: 100px 100px 0 50px;
+    }
+    .the__CEOs__picture__container {
+        width: 80%;
+        height: 80%;
+        box-shadow: 10px 10px 10px rgb(0, 0, 0,0.5);
+        border-radius: 15px;
+    }
+    .the__CEOs__picture{
+        border-radius: 15px;
+        width: 100%;
+        height: 100%;
+    }
+    .Company__Address-text p, .location-description p {
+        font-family: var(--roboto);
+        font-size: 1.2rem;
+        font-weight: 500;
+        line-height: 1.5;
+    }
+    .map {
+        width: 100% ;
+        height: 50vh;
+    }
+    .social__medias {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 20px;
+        width: 80%;
+        margin:20px auto;
+        margin-top: 50vh;
+    }
+    .social__medias img{
+        width: 30%;
+    }
+    .social__medias__link {
+        text-decoration:none;
+        color: black;
+    }
+}

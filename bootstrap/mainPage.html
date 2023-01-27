@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mainPage</title>
+
+
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="container-fluid  m-0 p-0" style="height: 90vh;">
+        <div class="w-100 h-100">
+            <img class="img-fluid w-100 h-100" src="assets/images/header-image.jpg" alt="header background pic" >
+            <div class="px-2 position-relative bottom-50 text-light">
+                    <q class="fs-1  fw-bold "> 
+                        Programming is the art of telling another human being what one wants the computer to do.
+                    </q>
+                    <span class="fs-3 fst-italic"> Donald Ervin Knuth</span>   
+            </div>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-lg bg-primary bg-gradient position-md-relative position-sticky top-0  align-self-center  top__navigation__bar" >
+        <div class="container-fluid fs-5 fw-semibold text-black">
+          <a class="navbar-brand" href="#">
+            <a class="btn bg-transparent fs-5 fw-semibold text-black text-start " data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                <button class="btn btn-primary bg-transparent border-0 align-self-center fs-6 text-black fw-semibold" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                    Topics
+                  </button>
+            </a>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav w-100 align-self-center fs-6">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="compiler.html">Compiler</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="login.html">Login/SignUp</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+
+              
+              <li class="nav-item w-75 mt-2">
+                <div class="courses mx-sm-0 mx-md-4 align-items-center">
+                  <button class="html--button rounded px-3 border-0"> HTML</button>
+                  <button class="css--button rounded px-3 border-0"> CSS</button>
+                  <button class="js--button rounded px-3 border-0"> Javascript</button>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+
+    <main>
+        <section class="sidebar">
+              <div class="offcanvas offcanvas-start fw-bolder" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title " id="offcanvasExampleLabel">Topics</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <nav class="sidebar__container">
+                        <ul class="list-unstyled">
+                            <li id="top"  class="pt-3 cursor-pointer ">What is HTML?</li>
+                            <li class="pt-3 ">what is tag and element</li>
+                            <li class="show-submenu-one">
+                                <div class="accordion bg-transparent border-0" id="accordionExample">
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button bg-transparent p-0 pt-3 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            Basic HTML tags
+                                        </button>
+                                      </h2>
+                                      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul class="list-unstyled  sub-menu one">
+                                                <li class="pt-3">meta tags</li>
+                                                <li class="pt-3">heading tag</li>
+                                                <li class="pt-3">paragraph tag</li>
+                                            </ul>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="show-submenu-two">
+                                <div class="accordion bg-transparent" id="accordionExample">
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button bg-transparent p-0 pt-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                            HTML formatting tags
+                                        </button>
+                                      </h2>
+                                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul class="list-unstyled sub-menu two">
+                                                <li class="pt-3">bold text</li>
+                                                <li class="pt-3">italic</li>
+                                                <li class="pt-3">Underlined text</li>
+                                            </ul>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                            </li>
+                            <li class="pt-3">comments</li>
+                            <li class="pt-3">images</li>
+                            <li class="pt-3">tables</li>
+                            <li class="pt-3">list</li>
+                            <li class="pt-3">style sheet</li>
+                            <li class="pt-3">some additional tags</li>
+                        </ul>
+                    </nav>
+                </div>
+              </div>
+        </section>
+
+        <section class="container">
+            <div class="row">
+                <div class="col-md-8 mx-auto my-5" >
+                    <video controls class="w-100">
+                        <source src="assets/videos/video-2.mp4" type="video/mp4">
+                        <track src="assets/videos/subtitle-2.vtt" label="English"
+                            kind="captions" srclang="en-us" default> 
+                    </video>
+                </div>
+                <div class="col-10 mx-auto">
+                    <div class="written__tutorial">
+                        <p class="fs-2 fw-bold text-center lecture__topic">WHAT IS HTML?</p>
+                        <p class="fw-semibold the__text__field">HTML stands for Hypertext Markup Language, and it is the most widely used language to 
+                            write Web Pages.
+                            Hypertext refers to the way in which Web pages (HTML documents) are linked 
+                            together. Thus, the link available on a webpage is called Hypertext.
+                             As its name suggests, HTML is a Markup Language which means you use HTML 
+                            to simply "mark-up" a text document with tags that tell a Web browser how to 
+                            structure it to display.
+                            Originally, HTML was developed with the intent of defining the structure of documents like 
+                            headings, paragraphs, lists, and so forth to facilitate the sharing of scientific information 
+                            between researchers.
+                            Now, HTML is being widely used to format web pages with the help of different tags 
+                            available in HTML language.
+                            </p>
+                    </div>
+                    <div class="table-tutorial ">
+                        <p class="fs-3 fw-bolder">Advantages of learning HTML</p> 
+                        <div class="table-responsive">
+                            <table class="table table-success table-striped">
+                                <tr>
+                                    <td>Create Web site</td>
+                                    <td>You can create a website or customize an existing web template if you know HTML well.</td>
+                                </tr>
+                                <tr>
+                                    <td>Become a web designer</td>
+                                    <td>If you want to start a carrer as a professional web designer, HTML and CSS designing is a must skill.</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Understand web
+                                    </td>
+                                    <td>
+                                        If you want to optimize your website, to boost its speed and performance, it is good to know HTML to yield best results.
+                                    </td>
+                                </tr>
+                                <tr >
+                                    <td>Learn other languages </td>
+                                    <td>Once you understands the basic of HTML then other related technologies like javascript, php, or angular are become easier to understand.</td>
+                                </tr>
+                            </table> 
+
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+
+    <footer class="container-fluid mx-0 w-100 bg-dark pt-3">
+        <div class="row w-100 mx-0">
+            <div class="col-md-4 col-sm-10 mx-sm-auto">
+                <img class="w-100 me-md-4 mt-md-3 my-sm-4" src="assets/images/logo.jpg" alt="Logo">
+            </div>
+            <div class="col-md-3 col-sm-10 mx-sm-auto mx-md-2 align-self-center">
+                <ul class="footer__pages--list">
+                    <li><a class="fw-bolder text-decoration-none text-light" href="about.html">About us</a></li>
+                    <li><a class="fw-bolder text-decoration-none text-light" href="contact.html">Contact us</a></li>
+                    <li><a class="fw-bolder text-decoration-none text-light" href="compiler.html">Compiler</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 col-sm-8 mx-sm-auto mt-md-5">
+                <form  class="needs-validation text-light">
+                    <label for="validationCustomEmail" class="form-label d-block my-1 mx-2">email</label>
+                    <input class="form-control w-100 rounded-pill fs-5 ps-3 my-1 " type="email" placeholder="email@email.com" id="validationCustomEmail" required>
+                    <div class="invalid-feedback">
+                      Please provide a valid email
+                    </div>
+                    
+                    <div class="input-group has-validation">
+                      <label for="validationCustom01" class="form-label d-block my-3 "> feedback</label>
+                      <textarea name="feedback" id="validationCustom01" rows="7"  class="w-100"  required></textarea>
+                      <div class="invalid-feedback">
+                        Please write your feedback first
+                    </div>
+                    </div>
+                    <button type="submit" class="d-block rounded-pill my-3 fw-bolder px-4 py-2">send</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="bootstrap-5.3.0-alpha1-dist/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

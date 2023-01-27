@@ -1,0 +1,17 @@
+.top__navigation__bar{
+    z-index: 100 !important;
+}
+
+.sidebar__container li{
+    cursor: pointer;
+}
+
+ /* it is not possible to insert image as a background in bootstrap , so that i used the following  style*/
+.homePage--background{
+    background:rgba(0, 0, 0,0.5) url('assets/images/comp2.jpg') fixed center;   
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-blend-mode:darken ;
+    box-shadow: inset 0 -20px 10px rgb(0, 0, 0,0.5);
+}
+

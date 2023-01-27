@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-page</title>
+
+
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <section class="container w-100 h-100 mt-5 py-5 rounded shadow bg-info  bg-gradient">
+        <h1 class="text-center my-5">WELCOME BACK (:</h1>
+        <form class="row g-3 needs-validation" novalidate>
+            <div class="col-6">
+                <label for="validationCustomUsername" class="form-label">Username / email</label>
+                <div class="input-group has-validation">
+                    <span class="input-group-text" id="inputGroupPrepend">@</span>
+                    <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                    <div class="invalid-feedback">
+                    Please choose a username.
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12">
+                <label for="validationCustom03" class="form-label">Password</label>
+                <input type="password" class="w-50 form-control" id="validationCustom03" required>
+                <div class="invalid-feedback">
+                    Please provide a valid password
+                </div>
+            </div>
+            
+            <div class="col-12">
+                <button class="btn btn-primary submit_button" type="submit">Login</button>
+              </div>
+        </form>
+
+            
+        <div class="mt-4 mx-5">
+            <p class="d-inline">Already have an account <a href="signUp.html">Sign In</a></p>
+        </div>
+    </section>
+
+    <script src="bootstrap-5.3.0-alpha1-dist/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

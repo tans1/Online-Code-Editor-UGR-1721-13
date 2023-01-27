@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>compiler</title>
+
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-primary bg-gradient position-sticky top-0 top__navigation__bar">
+        <div class="container-fluid fs-5  fw-semibold text-black">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="mainPage.html">Tutorial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="resource.html">Resource</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    
+    <div class="fluid m-5">
+        <p class="fs-4 fw-bolder">You can hear and enjoy this music during code writing</p>
+      <div class="col-sm-7 col-md-8 col-lg-6 ">
+        <audio src="assets/audio/coding music.mp3" controls class="w-100"></audio>
+      </div>
+    </div>
+
+
+    <section class="me-3">
+        <p class="mx-md-5 mt-5 text-center">
+            <a class="btn btn-primary run--button" href="#result" role="button">Run</a>
+        </p>
+        <div class="container">
+            <div class="row ms-3 my-5 w-100 h-100">
+                <div class="col-md-4 col-sm-11 coding-area ">
+                    <label for="html" class="fw-bolder html__coding">Write HTML code here</label>
+                    <textarea id="html" class="w-100 bg-warning-subtle text-success-emphasis  fs-5 px-2  html__coding" placeholder="HTML" required></textarea>
+                </div>
+                <div class="col-md-4 col-sm-11  coding-area ">
+                    <label for="css" class="fw-bolder css__coding">Write CSS code here</label>
+                    <textarea id="css" class="w-100 bg-warning-subtle text-success-emphasis   fs-5 px-2 css__coding" placeholder="CSS"></textarea>
+                </div>
+                <div class="col-md-4 col-sm-11  coding-area ">
+                    <label for="js" class="fw-bolder js__coding">Write JavaScript code here</label>
+                    <textarea id="js" class="w-100 bg-warning-subtle text-success-emphasis  fs-5 px-2 js__coding" placeholder="JavaScript"></textarea>
+                </div> 
+            </div>
+        </div> 
+
+        <div class="fluid result mx-3" id="result">
+            <iframe title="Compiler result" class="w-100 bg-warning-subtle codeResult" ></iframe>
+        </div>
+    </section>
+
+
+
+
+    <footer class="container-fluid mx-0 w-100 bg-dark pt-3">
+        <div class="row w-100 mx-0">
+          <div class="col-md-4 col-sm-10 mx-sm-auto">
+            <img class="w-100 me-md-4 mt-md-3 my-sm-4" src="assets/images/logo.jpg" alt="Logo">
+          </div>
+          <div class="col-md-3 col-sm-10 mx-sm-auto mx-md-2 align-self-center">
+              <ul class="">
+                  <li><a class="fw-bolder text-decoration-none text-light" href="about.html">About us</a></li>
+                  <li><a class="fw-bolder text-decoration-none text-light" href="contact.html">Contact us</a></li>
+                  <li><a class="fw-bolder text-decoration-none text-light" href="mainPage.html">Tutorials</a></li>
+              </ul>
+          </div>
+          <div class="col-md-4 col-sm-8 mx-sm-auto mt-md-5">
+              <form  class="needs-validation text-light">
+                  <label for="validationCustomEmail" class="form-label d-block my-1 mx-2">email</label>
+                  <input class="form-control w-100 rounded-pill fs-5 ps-3 my-1 " type="email" placeholder="email@email.com" id="validationCustomEmail" required>
+                  <div class="invalid-feedback">
+                    Please provide a valid email
+                  </div>
+                  
+                  <div class="input-group has-validation">
+                    <label for="validationCustom01" class="form-label d-block my-3 "> feedback</label>
+                    <textarea name="feedback" id="validationCustom01" rows="7"  class="w-100"  required></textarea>
+                    <div class="invalid-feedback">
+                      Please write your feedback first
+                  </div>
+                  </div>
+                  <button type="submit" class="d-block rounded-pill my-3 fw-bolder px-4 py-2">send</button>
+              </form>
+          </div>
+        </div>
+    </footer>
+    
+
+
+    <script src="bootstrap-5.3.0-alpha1-dist/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
